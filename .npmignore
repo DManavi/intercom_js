@@ -1,0 +1,12 @@
+.github/
+.nyc_output/
+coverage/
+
+src/
+tests/
+
+.gitignore
+.npmignore
+.env
+
+tsconfig.json
