@@ -297,7 +297,7 @@ export class Intercom {
                     return new Promise<U>(
                         (resolve, reject) => (handler as CallbackMethod<T, U>)(
                             payload,
-                            (err, result) => err ? reject(err) : resolve(err)
+                            (err, result) => err ? reject(err) : resolve(result!)
                         )
                     );
                 }
